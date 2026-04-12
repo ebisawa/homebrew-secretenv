@@ -4,24 +4,24 @@
 class Secretenv < Formula
   desc "Serverless CLI for secure secret sharing with HPKE encryption"
   homepage "https://github.com/ebisawa/secretenv"
-  version "0.4.1-alpha"
+  version "0.5.1-alpha"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ebisawa/secretenv/releases/download/v0.4.1-alpha/secretenv-v0.4.1-alpha-aarch64-apple-darwin.tar.gz"
-      sha256 "1e90543123ce0ec760f33a2da0516644540e02f183580e14b0fab4edb263e238"
+      url "https://github.com/ebisawa/secretenv/releases/download/v0.5.1-alpha/secretenv-v0.5.1-alpha-aarch64-apple-darwin.tar.gz"
+      sha256 "1ee360c1e06f618a6637ebf94aee2d15b57257223be95e728cdc750485666b1a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ebisawa/secretenv/releases/download/v0.4.1-alpha/secretenv-v0.4.1-alpha-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0769110a8046034b1de455eb1cf877d96a34cea9c527939d5bc8cf5e95c8f9e6"
+      url "https://github.com/ebisawa/secretenv/releases/download/v0.5.1-alpha/secretenv-v0.5.1-alpha-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3b29fa2838ff7c281864087cbe73935891e186631da68d4f0eb92de6ea12d94c"
     end
     on_arm do
-      url "https://github.com/ebisawa/secretenv/releases/download/v0.4.1-alpha/secretenv-v0.4.1-alpha-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "18473d3452be826772944d0ffc068dd1c48cdacda69e1ca8d8fc86faef444570"
+      url "https://github.com/ebisawa/secretenv/releases/download/v0.5.1-alpha/secretenv-v0.5.1-alpha-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "88e5d4fb48124dfec08c04c40b0caa2d7b09e6ee173acb51bacd06cc681ddba5"
     end
   end
 
